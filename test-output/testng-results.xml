@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-01-31T23:31:52 IST" name="RegressionSuite" finished-at="2024-01-31T23:31:57 IST" duration-ms="4252">
+    <groups>
+    </groups>
+    <test started-at="2024-01-31T23:31:52 IST" name="HoversTest" finished-at="2024-01-31T23:31:57 IST" duration-ms="4252">
+      <class name="org.qa.tests.HoversTest">
+        <test-method is-config="true" signature="beforemethod()[pri:0, instance:org.qa.tests.HoversTest@5dcb4f5f]" started-at="2024-01-31T23:31:52 IST" name="beforemethod" finished-at="2024-01-31T23:31:56 IST" duration-ms="3678" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforemethod -->
+        <test-method signature="Hovers()[pri:0, instance:org.qa.tests.HoversTest@5dcb4f5f]" started-at="2024-01-31T23:31:56 IST" name="Hovers" finished-at="2024-01-31T23:31:57 IST" duration-ms="544" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Hovers -->
+        <test-method is-config="true" signature="AfterMethod()[pri:0, instance:org.qa.tests.HoversTest@5dcb4f5f]" started-at="2024-01-31T23:31:57 IST" name="AfterMethod" finished-at="2024-01-31T23:31:57 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterMethod -->
+      </class> <!-- org.qa.tests.HoversTest -->
+    </test> <!-- HoversTest -->
+  </suite> <!-- RegressionSuite -->
+</testng-results>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="RegressionSuite">
+	<listeners>
+		<listener class-name="org.qa.utils.Listeners"></listener>
+	</listeners>  
+  <test thread-count="10" name="BasicAuthTest">
+	  <parameter name='browser' value='firefox'/>
+    <classes>
+      <class name="org.qa.tests.BasicAuthTest" >
+		  <methods>
+			  <exclude name=".*" />
+		  </methods>
+	  </class>
+	  <class name="org.qa.tests.AddRemoveButtons">
+		 <methods>
+			 <exclude name=".*" />
+		 </methods> 
+	  </class>
+	  <class name="org.qa.tests.BrokenImagesTest"/>
+    </classes>
+  </test> <!-- EndtoEndTest -->
+</suite> <!-- RegressionSuite -->
