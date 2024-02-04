@@ -14,9 +14,6 @@ public class ExtentReporterNG {
 		ExtentReports exrep= new ExtentReports();
 		exrep.attachReporter(spark);
 		exrep.setSystemInfo("Tester", "Sindu Chittibothula");
-		return exrep;
-
-		
+		return exrep;		
 	}
-
 }
